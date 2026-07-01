@@ -438,8 +438,12 @@ with tab_query:
                     if item.get("sources"):
                         pills = "".join(f"<span class='citation-pill'>📄 {s}</span>" for s in item["sources"])
                         st.markdown(f"""
-                        <div style='font-size:0.75rem; color:#94A3B8; margin-bottom:6px; font-weight:600;'>CITATIONS</div>
+                        <div style='font-size:0.75rem; color:#6B7280; margin-bottom:6px; font-weight:600;'>CITATIONS</div>
                         <div>{pills}</div>
+                        """, unsafe_allow_html=True)
+                    else:
+                        st.markdown("""
+                        <div style='font-size:0.75rem; color:#9CA3AF; font-style:italic;'>No policy sources matched this query.</div>
                         """, unsafe_allow_html=True)
 
                 # ── Human review button ──
@@ -518,8 +522,8 @@ with tab_log:
                     <div class='conf-bar-outer' style='margin-bottom:12px;'>
                         <div class='conf-bar-inner' style='width:{conf*100:.1f}%; background:{"#22C55E" if conf >= 0.8 else "#EAB308" if conf >= st.session_state.escalation_threshold else "#EF4444"};'></div>
                     </div>
-                    <div style='font-size:0.8rem; color:#94A3B8; margin-bottom:6px; font-weight:600;'>SOURCES CITED</div>
-                    <div style='margin-bottom:12px;'>{"".join(f"<span class='citation-pill'>📄 {s}</span>" for s in entry.get("sources_cited",[]))  or "<span style='color:#4B5563; font-size:0.8rem;'>None</span>"}</div>
+                    <div style='font-size:0.8rem; color:#6B7280; margin-bottom:6px; font-weight:600;'>SOURCES CITED</div>
+                    <div style='margin-bottom:12px;'>{("".join(f"<span class='citation-pill'>📄 {s}</span>" for s in entry.get("sources_cited",[]))) or "<span style='color:#9CA3AF; font-size:0.8rem; font-style:italic;'>No policy sources matched</span>"}</div>
                 </div>
                 """, unsafe_allow_html=True)
 

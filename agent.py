@@ -70,6 +70,30 @@ def run_query(query: str, session_id: str = "default") -> dict:
     chunk_scores    = [s for _, s in scored_chunks]
     sources = list(dict.fromkeys(c.source for c in relevant_chunks))  # deduplicated
 
+    # --- Out-of-scope check — no chunks cleared the relevance threshold ---
+    if not relevant_chunks:
+        no_source_response = (
+            "No relevant policy sources found.\n\n"
+            "The provided policy documents do not contain information related to this question. "
+            "Please consult a qualified compliance officer or refer to the appropriate regulatory authority."
+        )
+        log_interaction(
+            query=query,
+            response=no_source_response,
+            sources=[],
+            confidence=0.0,
+            escalated=True,
+            session_id=session_id,
+        )
+        return {
+            "response": no_source_response,
+            "confidence": 0.0,
+            "escalated": True,
+            "sources": [],
+            "escalation_note": escalation_message(),
+            "error": None,
+        }
+
     # --- Generation ---
     try:
         prompt = build_prompt(query, relevant_chunks)

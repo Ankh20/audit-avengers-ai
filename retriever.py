@@ -18,6 +18,11 @@ SUPPORTED_EXTENSIONS = {".txt", ".md", ".csv"}
 CHUNK_SIZE = 400        # words per chunk
 CHUNK_OVERLAP = 50      # word overlap between consecutive chunks
 
+# Minimum Jaccard similarity for a chunk to be considered relevant.
+# Queries with no chunks above this threshold are treated as out-of-scope.
+# Calibrated value: on-topic queries score ~0.03–0.08; off-topic score <=0.025.
+RETRIEVAL_THRESHOLD = 0.028
+
 
 @dataclass
 class Chunk:
@@ -126,10 +131,8 @@ def retrieve_with_scores(
         scored.append((jaccard, chunk))
 
     scored.sort(key=lambda x: -x[0])
-    top = [(c, s) for s, c in scored[:top_k] if s > 0.0]
 
-    # Fall back to first top_k chunks if nothing overlaps
-    if not top:
-        top = [(c, 0.0) for _, c in scored[:top_k]]
-
+    # Only return chunks that clear the relevance threshold.
+    # If nothing clears it the query is considered out-of-scope — return empty.
+    top = [(c, s) for s, c in scored[:top_k] if s >= RETRIEVAL_THRESHOLD]
     return top
