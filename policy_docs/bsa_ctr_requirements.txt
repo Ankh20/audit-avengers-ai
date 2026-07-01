@@ -1,0 +1,58 @@
+BANK SECRECY ACT — CURRENCY TRANSACTION REPORTING REQUIREMENTS
+U.S. Department of the Treasury / Financial Crimes Enforcement Network (FinCEN)
+Reference: 31 CFR 1010.311, 31 CFR 1010.313
+
+1. OVERVIEW
+The Bank Secrecy Act (BSA) requires financial institutions to file a Currency Transaction Report (CTR)
+for each transaction in currency of more than $10,000. This requirement applies to both deposits
+and withdrawals, as well as exchanges of currency and other payments and transfers.
+
+2. FILING THRESHOLD
+A CTR must be filed when a customer conducts a cash transaction exceeding $10,000 in a single
+business day. Multiple transactions by the same customer that together exceed $10,000 must be
+aggregated and reported (structuring rules apply).
+
+3. WHO MUST FILE
+The following financial institutions are required to file CTRs:
+  - Banks and savings associations
+  - Credit unions
+  - Money services businesses (MSBs)
+  - Casinos and card clubs
+  - Insurance companies
+  - Mutual funds and broker-dealers
+
+4. FILING DEADLINES
+A CTR must be filed electronically with FinCEN within 15 calendar days following the day of the
+reportable transaction. The financial institution must retain a copy of the CTR for 5 years
+from the date of filing.
+
+5. INFORMATION REQUIRED ON THE CTR
+The CTR must include:
+  a. Identity of the individual conducting the transaction (name, address, date of birth, SSN/TIN,
+     government-issued ID number and issuing state)
+  b. Identity of the individual or entity on whose behalf the transaction is conducted
+  c. Description of the transaction (amount, type, date)
+  d. Identity of the financial institution and the account(s) involved
+
+6. EXEMPTIONS
+Certain entities may be exempt from CTR filing under 31 CFR 1010.315:
+  - Phase I Exempt Persons: Banks, government agencies, listed companies (NYSE/NASDAQ/AMEX),
+    and their subsidiaries
+  - Phase II Exempt Persons: Non-listed businesses and payroll customers that meet specific
+    criteria including 2+ years of operation and 8+ transactions per year
+
+7. STRUCTURING PROHIBITION
+It is illegal to structure transactions to evade the CTR reporting requirement. Structuring
+involves breaking up a transaction into smaller amounts to avoid the $10,000 threshold.
+Structuring is a federal crime under 31 U.S.C. 5324 and carries penalties including fines
+and imprisonment of up to 5 years.
+
+8. PENALTIES FOR NON-COMPLIANCE
+Civil penalties: Up to $25,000 per violation for negligent violations;
+up to $100,000 per violation for pattern of negligent activity.
+Criminal penalties: Up to $250,000 and/or 5 years imprisonment for willful violations.
+
+9. RECORDKEEPING
+Financial institutions must retain all CTR records, supporting documentation, and related
+correspondence for a minimum of 5 years. Records must be retrievable within a reasonable
+time period for examination by FinCEN or other authorized federal agencies.

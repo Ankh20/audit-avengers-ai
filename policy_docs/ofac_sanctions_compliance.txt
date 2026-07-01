@@ -1,0 +1,94 @@
+OFAC SANCTIONS COMPLIANCE PROGRAM GUIDELINES
+U.S. Department of the Treasury — Office of Foreign Assets Control (OFAC)
+Reference: 31 CFR Parts 500–599; OFAC Compliance Framework (May 2019)
+
+1. OVERVIEW
+The Office of Foreign Assets Control (OFAC) administers and enforces economic and trade
+sanctions based on U.S. foreign policy and national security goals. OFAC sanctions target
+foreign countries, regimes, terrorists, international narcotics traffickers, proliferators
+of weapons of mass destruction, and other threats to national security.
+
+2. WHO MUST COMPLY
+OFAC regulations apply to all U.S. persons, including:
+  - U.S. citizens and permanent resident aliens wherever located
+  - All persons and entities within the United States
+  - All U.S.-incorporated entities and their foreign branches
+  - In some programs: foreign subsidiaries of U.S. companies
+
+3. THE SPECIALLY DESIGNATED NATIONALS (SDN) LIST
+OFAC maintains the SDN List, which includes individuals and companies owned or controlled by,
+or acting for or on behalf of, targeted countries. It also lists individuals, groups, and
+entities, such as terrorists and narcotics traffickers, designated under programs not tied
+to a specific country.
+
+Financial institutions must screen all customers, transactions, and counterparties against
+the SDN List before processing. Transactions with SDN-listed parties must be blocked or
+rejected.
+
+4. BLOCKED VS. REJECTED TRANSACTIONS
+  BLOCKED transactions: The funds are frozen and held in a blocked account. This applies when
+  the underlying transaction is prohibited but the property remains in U.S. jurisdiction.
+  Example: Wire transfer from a Cuban national.
+
+  REJECTED transactions: The transaction is refused and returned. This applies when the
+  transaction would move funds or services to or from a sanctioned party.
+  Example: A transaction where an SDN is a beneficiary.
+
+5. REPORTING REQUIREMENTS
+  Blocking Reports: Must be filed with OFAC within 10 business days of blocking property
+  or funds.
+  Annual Reports: All blocked property must be reported to OFAC annually by September 30.
+  Rejection Reports: Must be filed within 10 business days of rejecting a transaction.
+
+6. FIVE PILLARS OF AN EFFECTIVE SANCTIONS COMPLIANCE PROGRAM (SCP)
+  Pillar 1 — Management Commitment:
+    Senior management must demonstrate commitment to the SCP, including allocating adequate
+    resources and establishing a culture of compliance.
+
+  Pillar 2 — Risk Assessment:
+    Organizations must conduct a comprehensive sanctions risk assessment, covering products,
+    services, customers, counterparties, and geographic exposure.
+
+  Pillar 3 — Internal Controls:
+    Implement policies, procedures, and systems designed to identify, interdict, escalate,
+    and report potentially prohibited transactions. Screening systems must be updated within
+    24 hours of SDN List changes.
+
+  Pillar 4 — Testing and Auditing:
+    Regular testing and auditing of the SCP to identify weaknesses. Testing should be
+    independent, thorough, and risk-based.
+
+  Pillar 5 — Training:
+    All relevant employees must receive OFAC compliance training appropriate to their role.
+    Training must be conducted at least annually and upon material changes to sanctions programs.
+
+7. CIVIL MONETARY PENALTIES
+OFAC may impose civil monetary penalties for violations, even if the person did not know
+the conduct was prohibited (strict liability standard applies in many programs).
+
+  Base penalties range from:
+  - Transaction value or $381,076 per violation (whichever is greater) for most programs
+  - Up to $1,000,000 per violation for certain programs (e.g., Iran, North Korea)
+
+  Factors that reduce penalties: Voluntary self-disclosure, cooperation, remediation
+  Factors that increase penalties: Willfulness, management involvement, prior violations
+
+8. VOLUNTARY SELF-DISCLOSURE (VSD)
+OFAC strongly encourages self-disclosure of potential violations. A timely, complete, and
+accurate VSD is a mitigating factor that can reduce a penalty by up to 50%.
+VSDs must be submitted in writing to OFAC's Compliance Division.
+
+9. GENERAL LICENSES VS. SPECIFIC LICENSES
+  General Licenses: Authorize a category of transactions without requiring individual
+  applications. Published in 31 CFR and on the OFAC website.
+
+  Specific Licenses: Written authorization from OFAC for a particular transaction or
+  category of transactions that would otherwise be prohibited. Applications submitted via
+  OFAC's licensing portal.
+
+10. KEY PROHIBITED ACTIONS (Summary)
+  - Conducting business with SDN-listed individuals or entities
+  - Processing transactions involving sanctioned countries (Cuba, Iran, North Korea, Syria, Russia — specific sectors)
+  - Facilitating transactions by U.S. persons that would be prohibited if conducted directly
+  - Approving, financing, guaranteeing, or otherwise facilitating a prohibited transaction
+  - Evading or attempting to evade OFAC regulations

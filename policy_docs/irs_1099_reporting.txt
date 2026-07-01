@@ -1,0 +1,68 @@
+IRS INFORMATION RETURN REPORTING — FORM 1099 SERIES
+Internal Revenue Service / Department of the Treasury
+Reference: IRC Section 6041, 6042, 6045, 6050W; Treasury Regulation 1.6041-1
+
+1. OVERVIEW
+The IRS requires payors to file information returns (Form 1099) to report payments made to
+individuals and certain businesses. These filings help the IRS match reported income against
+tax returns and ensure compliance with federal income tax obligations.
+
+2. COMMON 1099 FORM TYPES AND THRESHOLDS
+
+  1099-NEC (Nonemployee Compensation)
+  - Required when payments to a non-corporate service provider total $600 or more
+  - Covers: freelancers, independent contractors, attorneys, and other service providers
+  - Deadline: January 31 of the following tax year (both to recipient and IRS)
+
+  1099-MISC (Miscellaneous Income)
+  - Required for rents ($600+), royalties ($10+), prizes/awards ($600+)
+  - Medical/healthcare payments ($600+), crop insurance proceeds ($600+)
+  - Deadline: January 31 to recipient; February 28 (paper) or March 31 (electronic) to IRS
+
+  1099-INT (Interest Income)
+  - Required for interest payments of $10 or more
+  - Filed by banks, credit unions, and other financial institutions
+
+  1099-DIV (Dividends and Distributions)
+  - Required for dividends and distributions of $10 or more
+  - Includes ordinary dividends, qualified dividends, capital gain distributions
+
+  1099-K (Payment Card and Third-Party Network Transactions)
+  - Threshold for tax year 2025 onward: $600 aggregate
+  - Filed by payment settlement entities (PayPal, Venmo, Stripe, etc.)
+
+  1099-B (Proceeds from Broker Transactions)
+  - Required for proceeds from the sale of stocks, bonds, commodities
+  - No minimum dollar threshold
+
+3. TAXPAYER IDENTIFICATION NUMBER (TIN) REQUIREMENTS
+Payors must obtain the recipient's TIN (SSN, EIN, or ITIN) before making reportable payments.
+If the recipient fails to provide a TIN, backup withholding at 24% applies.
+Form W-9 is used to collect TIN information from U.S. payees.
+
+4. ELECTRONIC FILING REQUIREMENTS
+Payors filing 10 or more information returns (any combination of 1099 forms) must file
+electronically via the IRS FIRE (Filing Information Returns Electronically) system.
+Failure to file electronically when required results in a penalty of $310 per return.
+
+5. PENALTIES FOR FAILURE TO FILE OR FURNISH
+  - Filed within 30 days of deadline: $60 per return (max $630,500/year; $220,500 for small businesses)
+  - Filed by August 1: $120 per return (max $1,891,500/year; $630,500 for small businesses)
+  - Filed after August 1 or not filed: $310 per return (max $3,783,000/year; $1,261,000 for small businesses)
+  - Intentional disregard: $630 per return with no annual cap
+
+6. BACKUP WITHHOLDING
+Payors must withhold 24% of reportable payments in the following situations:
+  - Recipient fails to provide TIN
+  - IRS notifies the payor of an incorrect TIN (B-Notice)
+  - Recipient fails to certify that they are not subject to backup withholding
+
+7. CORRECTIONS AND AMENDMENTS
+If an error is discovered on a filed 1099, a corrected return must be filed as soon as
+possible. File a corrected return by checking the "CORRECTED" box on a new form.
+Two-transaction corrections are required when the original form reported an incorrect payee.
+
+8. FOREIGN PAYEES
+Payments to foreign individuals and entities are generally reported on Form 1042-S
+rather than the 1099 series. Payors should obtain Form W-8BEN or W-8BEN-E to document
+foreign status. FATCA reporting requirements under IRC Section 6038D may also apply.
