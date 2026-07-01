@@ -1,0 +1,82 @@
+KNOW YOUR CUSTOMER (KYC) AND CUSTOMER DUE DILIGENCE (CDD) REQUIREMENTS
+U.S. Department of the Treasury / FinCEN
+Reference: 31 CFR 1020.220 (CIP); FinCEN CDD Rule (31 CFR 1010.230, effective May 2018)
+
+1. OVERVIEW
+Know Your Customer (KYC) is the process financial institutions use to verify the identity
+of their customers and assess the risk they pose. KYC encompasses Customer Identification
+Program (CIP) requirements, Customer Due Diligence (CDD), and Enhanced Due Diligence (EDD).
+
+2. CUSTOMER IDENTIFICATION PROGRAM (CIP) — 31 CFR 1020.220
+Required for all banks, broker-dealers, mutual funds, and futures commission merchants.
+
+  a. Required Information to Collect (at account opening):
+     - Legal name
+     - Date of birth (for individuals)
+     - Address (residential or business)
+     - Identification number: SSN (U.S. persons), passport number or ITIN (foreign persons)
+
+  b. Verification Methods:
+     - Documentary: government-issued photo ID (driver's license, passport)
+     - Non-documentary: database checks, credit bureau inquiries, public records
+
+  c. Recordkeeping:
+     - Retain CIP records for 5 years after account closure
+     - Retain verification documents for 5 years after the record is made
+
+3. CUSTOMER DUE DILIGENCE (CDD) — FinCEN Rule 2018
+CDD requires financial institutions to understand the nature and purpose of customer
+relationships to develop customer risk profiles.
+
+  a. Four Core Elements of CDD:
+     1. Customer identification and verification (CIP)
+     2. Beneficial ownership identification and verification
+     3. Understanding the nature and purpose of the customer relationship
+     4. Ongoing monitoring for suspicious activity and updating customer information
+
+  b. Risk Profiles:
+     - Assign risk rating (low, medium, high) to each customer
+     - Base risk rating on: type of customer, products/services used, geography, transaction patterns
+     - Review and update risk profiles periodically or upon triggering events
+
+4. BENEFICIAL OWNERSHIP REQUIREMENTS
+For legal entity customers (corporations, LLCs, partnerships, trusts):
+  - Collect information on all individuals owning 25% or more equity interest
+  - Collect information on one individual with significant management control
+  - For each beneficial owner: name, DOB, address, SSN/passport number
+  - Verify identity using CIP-equivalent methods
+  - Obtain certification from the customer (FinCEN Beneficial Ownership Certification Form)
+
+5. ENHANCED DUE DILIGENCE (EDD)
+Required for higher-risk customers:
+  - Senior Foreign Political Figures (PEPs) and their immediate family
+  - Foreign private banking accounts
+  - Correspondent accounts for foreign financial institutions
+  - Non-bank financial institutions in high-risk jurisdictions
+  - Customers engaged in high-risk industries
+
+  EDD measures include:
+  - Obtaining additional identifying information
+  - Understanding source of funds and wealth
+  - Conducting more frequent account reviews
+  - Senior management approval for account opening/continuation
+
+6. ONGOING MONITORING
+Financial institutions must:
+  - Monitor customer transactions against expected activity profiles
+  - Update CDD information when triggered by suspicious activity or material changes
+  - Review high-risk accounts at least annually
+  - Flag inconsistencies between transaction patterns and stated business purpose
+
+7. POLITICALLY EXPOSED PERSONS (PEPs)
+PEPs are individuals who hold or have held prominent public positions (heads of state,
+senior government officials, senior executives of state-owned enterprises, senior military officials).
+  - Require EDD measures
+  - Senior management must approve establishing and continuing relationships with PEPs
+  - Transactions must be scrutinized for potential corruption or bribery
+
+8. RECORDKEEPING
+  - CDD records: 5 years after account closure
+  - Beneficial ownership records: 5 years after account closure
+  - All KYC-related correspondence: 5 years
+  - Records must be made available to FinCEN and banking regulators upon request

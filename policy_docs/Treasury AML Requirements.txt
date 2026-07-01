@@ -1,0 +1,83 @@
+TREASURY ANTI-MONEY LAUNDERING (AML) REQUIREMENTS
+U.S. Department of the Treasury / FinCEN
+Reference: 31 USC 5318; 31 CFR 1010.210; FinCEN AML Program Rules
+
+1. OVERVIEW
+Treasury's AML requirements mandate that financial institutions establish and maintain
+effective programs to detect, prevent, and report money laundering and terrorist financing.
+These requirements implement the Bank Secrecy Act and are enforced by FinCEN and
+federal banking regulators.
+
+2. AML PROGRAM REQUIREMENTS
+Every covered financial institution must maintain a written AML program that includes:
+
+  a. Internal Controls
+     - Written policies and procedures covering all BSA/AML obligations
+     - Designation of roles and responsibilities
+     - Transaction monitoring processes
+     - Risk-based controls proportionate to the institution's risk profile
+
+  b. Independent Testing (Audit)
+     - Periodic independent review of the AML program
+     - Testing must be conducted by qualified personnel independent of the compliance function
+     - Frequency and scope should be risk-based (typically annual for banks)
+
+  c. Designated BSA/AML Compliance Officer
+     - Must be a qualified individual with day-to-day responsibility
+     - Must have sufficient authority and resources to implement the program
+     - Reports to senior management and the board
+
+  d. Ongoing Training
+     - All relevant employees must receive AML training
+     - Training must be updated to reflect changes in laws and typologies
+     - Training records must be retained
+
+  e. Customer Due Diligence (CDD) — added by FinCEN rule effective May 2018
+     - Identify and verify beneficial owners of legal entity customers
+     - Understand the nature and purpose of customer relationships
+     - Conduct ongoing monitoring of customer transactions
+
+3. RISK-BASED APPROACH
+Treasury requires a risk-based AML program. Institutions must:
+  - Conduct a written enterprise-wide AML risk assessment
+  - Identify high-risk customers, products, services, and geographies
+  - Apply enhanced due diligence (EDD) to high-risk relationships
+  - Regularly update the risk assessment (at least annually or when material changes occur)
+
+4. ENHANCED DUE DILIGENCE (EDD) TRIGGERS
+EDD is required for:
+  - Foreign correspondent banks
+  - Private banking accounts for foreign persons
+  - Politically Exposed Persons (PEPs)
+  - High-risk geographic locations (FinCEN advisories, FATF high-risk jurisdictions)
+  - Customers in high-risk industries (MSBs, casinos, cannabis, cryptocurrency)
+  - Shell companies or entities with complex ownership structures
+
+5. TRANSACTION MONITORING
+Institutions must implement transaction monitoring systems to:
+  - Identify unusual or suspicious activity patterns
+  - Generate alerts for manual review
+  - Document review decisions and SAR filing rationale
+  - Tune models to reduce false positives while maintaining effectiveness
+
+6. BENEFICIAL OWNERSHIP REQUIREMENTS (FinCEN CDD Rule)
+For legal entity customers, institutions must collect:
+  - Beneficial owners holding 25% or more equity interest
+  - One individual with significant management control (control prong)
+  - Name, date of birth, address, and SSN/passport number
+
+7. RECORDKEEPING REQUIREMENTS
+  - All AML program records: 5 years minimum
+  - CTR and SAR filings: 5 years from date of filing
+  - Monetary instrument sales ($3,000–$10,000): 5 years
+  - Funds transfer records ($3,000 or more): 5 years
+  - CIP and CDD records: 5 years after account closure
+
+8. EXAMINATION AND ENFORCEMENT
+Federal banking regulators (OCC, FDIC, Federal Reserve, NCUA) and FinCEN examine
+AML programs. Deficiencies can result in:
+  - Matters Requiring Attention (MRAs) or Matters Requiring Immediate Attention (MRIAs)
+  - Memoranda of Understanding (MOUs)
+  - Cease and desist orders
+  - Civil money penalties
+  - Criminal referrals

@@ -1,0 +1,74 @@
+IRS SMALL BUSINESS TAX GUIDE — FEDERAL TAX OBLIGATIONS
+Internal Revenue Service / Department of the Treasury
+Reference: IRS Publication 334; IRC Sections 1, 11, 1401, 3111, 6011, 6012
+
+1. OVERVIEW
+This guide summarizes federal tax obligations for small businesses, including sole
+proprietors, partnerships, corporations, and S corporations. Business taxes include
+income tax, self-employment tax, employment taxes, and excise taxes.
+
+2. BUSINESS STRUCTURES AND TAX TREATMENT
+  Sole Proprietorship:
+  - Business income reported on Schedule C (Form 1040)
+  - Subject to self-employment tax (15.3% on net earnings up to $168,600 for 2024)
+  - Self-employment tax deduction: 50% deductible on Form 1040
+
+  Partnership:
+  - Files Form 1065 (U.S. Return of Partnership Income) — informational only
+  - Each partner reports their share of income/loss on Schedule K-1
+  - Partners pay self-employment tax on their distributive share
+
+  C Corporation:
+  - Pays corporate income tax at flat 21% rate (post-Tax Cuts and Jobs Act 2017)
+  - Files Form 1120 (U.S. Corporation Income Tax Return)
+  - Dividends paid to shareholders are taxed again at individual rates (double taxation)
+
+  S Corporation:
+  - Pass-through entity — income flows to shareholders' individual returns
+  - Files Form 1120-S; shareholders receive Schedule K-1
+  - Shareholders who are employees must receive reasonable compensation (subject to payroll tax)
+
+  LLC:
+  - Taxed as sole proprietorship (single-member), partnership (multi-member), or corporation
+  - No separate federal tax classification for LLCs
+
+3. ESTIMATED TAX PAYMENTS
+Businesses and self-employed individuals must make quarterly estimated tax payments if
+they expect to owe $1,000 or more in tax for the year.
+  Payment due dates: April 15, June 15, September 15, January 15 (following year)
+  Underpayment penalty: 8% per annum (2024 rate) on underpaid amounts
+
+4. EMPLOYMENT TAXES
+Employers must withhold and remit:
+  - Federal income tax (based on W-4 elections)
+  - Social Security tax: 6.2% employer + 6.2% employee (wage base $168,600 for 2024)
+  - Medicare tax: 1.45% employer + 1.45% employee (no wage base limit)
+  - Additional Medicare tax: 0.9% on employee wages above $200,000
+  - Federal Unemployment Tax (FUTA): 6.0% on first $7,000 of wages (credit reduces to 0.6%)
+
+5. BUSINESS DEDUCTIONS
+Common deductible business expenses:
+  - Ordinary and necessary business expenses (IRC Section 162)
+  - Depreciation of business assets (Section 179 expensing up to $1,160,000 for 2023)
+  - Bonus depreciation: 60% for 2024 (phasing down)
+  - Home office deduction (exclusive and regular use requirement)
+  - Business vehicle expenses (actual cost or standard mileage rate: 67 cents/mile for 2024)
+  - Health insurance premiums for self-employed individuals
+
+6. TAX FILING DEADLINES
+  - Sole proprietors/partnerships: April 15 (or October 15 with extension)
+  - C corporations: April 15 (or October 15 with extension); fiscal year filers: 15th day of 4th month
+  - S corporations: March 15 (or September 15 with extension)
+  - Employment tax deposits: semi-weekly or monthly based on lookback period
+
+7. IRS SMALL BUSINESS TAX CENTER RESOURCES
+  - IRS.gov/businesses/small-businesses-self-employed
+  - IRS Free File for eligible small businesses
+  - EFTPS (Electronic Federal Tax Payment System) for tax deposits
+  - IRS Small Business and Self-Employed Tax Center
+
+8. TAX PENALTIES
+  - Late filing: 5% per month on unpaid tax, maximum 25%
+  - Late payment: 0.5% per month on unpaid tax, maximum 25%
+  - Failure to deposit employment taxes: 2%–15% depending on lateness
+  - Accuracy-related penalty: 20% of underpayment due to negligence or substantial understatement

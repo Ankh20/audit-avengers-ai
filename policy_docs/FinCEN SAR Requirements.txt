@@ -1,0 +1,70 @@
+FinCEN SUSPICIOUS ACTIVITY REPORT (SAR) REQUIREMENTS
+Financial Crimes Enforcement Network (FinCEN)
+Reference: FinCEN Form 111; 31 CFR 1020.320; BSA E-Filing System
+
+1. WHAT IS A SAR
+A Suspicious Activity Report (SAR) is a mandatory report filed with FinCEN when a financial
+institution detects a transaction that may involve money laundering, fraud, terrorist
+financing, structuring, or other criminal activity.
+
+2. WHO MUST FILE SARs WITH FinCEN
+  - Banks (national, state, federal savings)
+  - Credit unions
+  - Money services businesses (MSBs)
+  - Broker-dealers
+  - Mutual funds
+  - Insurance companies
+  - Casinos (gross gaming revenue > $1 million)
+  - Futures commission merchants
+
+3. SAR FILING THRESHOLDS
+  - Banks and broker-dealers: $5,000 or more (or no minimum if terrorist financing suspected)
+  - Money services businesses: $2,000 or more
+  - Casinos: $5,000 or more
+
+4. WHEN TO FILE
+A SAR must be filed when the institution knows, suspects, or has reason to suspect:
+  a. The transaction involves funds from illegal activity
+  b. The transaction is designed to evade BSA reporting requirements (structuring)
+  c. The transaction has no lawful purpose and no reasonable explanation
+  d. The institution is being used to facilitate criminal activity
+
+5. SAR FILING DEADLINES
+  - Standard: 30 calendar days from the date of initial detection
+  - No suspect identified: 60 calendar days from the date of initial detection
+  - Continuing activity: file follow-up SARs every 90 days while activity continues
+  - Imminent threat to national security or life: contact law enforcement immediately
+
+6. HOW TO FILE A SAR
+  - File electronically via BSA E-Filing System (bsaefiling.fincen.treas.gov)
+  - Use FinCEN Form 111 (Suspicious Activity Report)
+  - Retain a copy of each SAR for 5 years from the date of filing
+  - Supporting documentation must be retained and made available upon request
+
+7. SAR NARRATIVE REQUIREMENTS
+The SAR narrative must:
+  - Be written in a clear, chronological, and complete manner
+  - Describe who, what, when, where, why, and how the suspicious activity occurred
+  - Identify the financial institution's suspicion with specific facts
+  - Avoid abbreviations and jargon
+  - Include the dollar amount and date(s) of suspicious transactions
+
+8. CONFIDENTIALITY — TIPPING OFF PROHIBITION
+  - Do NOT notify the subject of the SAR that a report was or will be filed
+  - Do NOT disclose the existence of a SAR to any unauthorized person
+  - Safe harbor protects good-faith filers from civil liability (31 USC 5318(g)(3))
+
+9. COMMON SAR TRIGGERS AT FinCEN
+  - Structuring (breaking up transactions to avoid $10,000 CTR threshold)
+  - Rapid movement of funds with no apparent business purpose
+  - Use of multiple accounts or shell companies
+  - High-value wire transfers to/from high-risk jurisdictions
+  - Unusual cash activity inconsistent with the customer's business profile
+  - Cyber-enabled fraud or account takeover
+
+10. SAR STATISTICS AND IMPORTANCE
+FinCEN receives millions of SAR filings annually. SAR data is used by:
+  - Federal, state, and local law enforcement agencies
+  - Intelligence agencies
+  - Regulatory examiners
+  - International partners through the Egmont Group

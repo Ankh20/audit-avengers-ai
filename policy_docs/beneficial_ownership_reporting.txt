@@ -1,0 +1,84 @@
+BENEFICIAL OWNERSHIP REPORTING REQUIREMENTS
+U.S. Department of the Treasury / Financial Crimes Enforcement Network (FinCEN)
+Reference: Corporate Transparency Act (CTA), 31 USC 5336; 31 CFR Part 1010 Subpart C
+
+1. OVERVIEW
+The Corporate Transparency Act (CTA), enacted January 1, 2021, requires many U.S. companies
+to report beneficial ownership information (BOI) to FinCEN. This rule took effect
+January 1, 2024, and aims to prevent the use of shell companies for illicit finance.
+
+2. WHO MUST REPORT
+  Reporting companies include:
+  - Domestic corporations, LLCs, and other entities created by filing with a Secretary of State
+  - Foreign entities registered to do business in the United States
+
+  Exemptions (23 categories, including):
+  - Publicly traded companies (reporting to SEC)
+  - Banks and credit unions
+  - SEC-registered investment companies and investment advisers
+  - Insurance companies
+  - Companies with 20+ full-time U.S. employees, $5M+ in gross receipts, and physical U.S. office
+  - Inactive entities meeting specific criteria
+
+3. WHAT MUST BE REPORTED
+  For each reporting company:
+  - Full legal name and any trade names (DBAs)
+  - Principal place of business address in the U.S.
+  - State or tribal jurisdiction of formation or registration
+  - IRS Taxpayer Identification Number (EIN)
+
+  For each beneficial owner (individuals owning 25%+ or exercising substantial control):
+  - Full legal name
+  - Date of birth
+  - Residential address
+  - Unique identifying number from acceptable ID (U.S. passport, driver's license, or foreign passport)
+  - Image of the ID document
+
+  For company applicants (individuals who filed the formation documents):
+  - Same information as beneficial owners
+  - Business address if the applicant is a corporate formation agent
+
+4. FILING DEADLINES
+  - Companies formed before January 1, 2024: Report by January 1, 2025
+  - Companies formed January 1, 2024 – December 31, 2024: Report within 90 calendar days
+  - Companies formed on or after January 1, 2025: Report within 30 calendar days
+  - Updates to BOI: Within 30 days of any change
+  - Corrections to BOI: Within 30 days of becoming aware of an inaccuracy
+
+5. HOW TO FILE
+  - File electronically through FinCEN's Beneficial Ownership Secure System (BOSS)
+  - Available at boiefiling.fincen.gov
+  - No filing fee
+  - Companies may file on their own or use a third-party service provider
+
+6. BENEFICIAL OWNER DEFINITION
+A beneficial owner is any individual who, directly or indirectly:
+  a. Exercises substantial control over the reporting company (e.g., senior officer, board director,
+     individual with authority over major decisions); OR
+  b. Owns or controls 25% or more of the ownership interests of the reporting company
+
+  Exceptions (not considered beneficial owners):
+  - Minor children (report parent/guardian instead)
+  - Nominees, intermediaries, custodians, or agents
+  - Employees whose control is solely derived from employment (unless also a senior officer)
+  - Creditors with no equity interest
+  - Inheritance (individuals whose only interest is through future inheritance)
+
+7. FinCEN IDENTIFIER (FinCEN ID)
+  Individuals and reporting companies may obtain a unique FinCEN ID.
+  Using a FinCEN ID satisfies the requirement to provide detailed BOI for that person.
+  Useful for individuals who are beneficial owners of multiple companies.
+
+8. PENALTIES FOR NON-COMPLIANCE
+  Civil penalties: $591 per day for each day the violation continues
+  Criminal penalties: Up to $10,000 and/or imprisonment up to 2 years
+  Both civil and criminal penalties may apply simultaneously.
+  Safe harbor: No penalty if the company voluntarily corrects an inaccurate report within 90 days.
+
+9. ACCESS TO BOI DATA
+  Authorized users of FinCEN's BOI database include:
+  - Federal law enforcement agencies
+  - State, local, and tribal law enforcement with a court order
+  - Federal agencies on behalf of foreign governments (treaty-based requests)
+  - Financial institutions for customer due diligence (with customer consent)
+  - Treasury Department for tax administration

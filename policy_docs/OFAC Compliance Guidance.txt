@@ -1,0 +1,73 @@
+OFAC COMPLIANCE GUIDANCE FOR FINANCIAL INSTITUTIONS
+U.S. Department of the Treasury — Office of Foreign Assets Control (OFAC)
+Reference: 31 CFR Parts 500–599; OFAC Compliance Framework (2019)
+
+1. OFAC MISSION
+OFAC administers and enforces U.S. economic and trade sanctions programs targeting
+foreign countries, regimes, terrorists, narcotics traffickers, WMD proliferators,
+and other national security threats.
+
+2. LEGAL BASIS FOR OFAC SANCTIONS
+  - International Emergency Economic Powers Act (IEEPA)
+  - Trading with the Enemy Act (TWEA)
+  - United Nations Participation Act (UNPA)
+  - Various country-specific statutes (e.g., Iran Sanctions Act, North Korea Sanctions Act)
+
+3. KEY SANCTIONS LISTS
+  a. Specially Designated Nationals (SDN) List
+     - Individuals and entities whose assets are blocked and with whom U.S. persons
+       are generally prohibited from dealing
+     - Updated regularly — institutions must screen against the current SDN List
+     - Available at: ofac.treasury.gov/sdn-list
+
+  b. Consolidated Sanctions List
+     - Includes SDN List plus non-SDN lists (Foreign Sanctions Evaders, Sectoral Sanctions, etc.)
+
+  c. Sectoral Sanctions Identification (SSI) List
+     - Targets specific sectors of the Russian economy
+     - Prohibits certain transactions (loans, equity) rather than all dealings
+
+4. COMPLIANCE OBLIGATIONS
+Financial institutions must:
+  a. Screen all customers, transactions, and counterparties against OFAC lists
+  b. Update screening systems within 24 hours of SDN List changes
+  c. Block or reject prohibited transactions immediately
+  d. Report blocked transactions to OFAC within 10 business days
+  e. Submit annual reports of all blocked property by September 30
+  f. Maintain records of all OFAC-related actions for 5 years
+
+5. BLOCKED vs. REJECTED TRANSACTIONS
+  Blocked: Property is frozen in a blocked account; reportable to OFAC within 10 days
+  Rejected: Transaction is refused and returned; reportable to OFAC within 10 days
+
+6. CIVIL MONETARY PENALTIES
+  OFAC applies strict liability — knowledge of the violation is not required.
+  Base penalties:
+  - Most programs: greater of $364,921 per violation or twice the transaction value
+  - Iran, North Korea, Syria: up to $1,000,000 per violation
+
+  Mitigating factors: voluntary self-disclosure, cooperation, strong compliance program
+  Aggravating factors: willfulness, management involvement, prior violations
+
+7. VOLUNTARY SELF-DISCLOSURE (VSD)
+  - Timely, complete, accurate VSD reduces penalty by up to 50%
+  - Must be submitted in writing to OFAC's Compliance Division
+  - Should describe the transaction, parties, amount, and remediation steps
+
+8. GENERAL LICENSES
+  General licenses authorize categories of transactions without individual approval.
+  Published in relevant sanctions program regulations (31 CFR Parts 500–599).
+  Examples: emergency medical services, journalistic activities, personal remittances
+
+9. SPECIFIC LICENSES
+  Individual transactions not covered by a general license require a specific license.
+  Applications submitted through OFAC's online licensing portal.
+  Processing times vary from days to months depending on complexity.
+
+10. CURRENT MAJOR SANCTIONS PROGRAMS
+  - Cuba (CACR) — comprehensive embargo
+  - Iran (ISR/ITSR) — comprehensive sanctions
+  - North Korea (NKSR) — comprehensive sanctions
+  - Russia — sectoral and SDN-based sanctions (post-2022 expanded significantly)
+  - Syria (SySR) — comprehensive sanctions
+  - Venezuela — targeted sanctions on government/oil sector
