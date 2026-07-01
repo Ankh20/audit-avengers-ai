@@ -82,18 +82,10 @@ st.markdown("""
     z-index: 9999;
 }
 
-/* ── Sidebar background ───────────────────────────────────────────── */
-[data-testid="stSidebar"] {
-    background-color: #0F0F1A;
-}
-[data-testid="stSidebar"] * {
-    color: #E2E8F0 !important;
-}
-
 /* ── Metric cards ─────────────────────────────────────────────────── */
 .metric-card {
-    background: linear-gradient(135deg, #1E1B4B, #2D1B69);
-    border: 1px solid #4C1D95;
+    background: linear-gradient(135deg, #EDE9FE, #F5F3FF);
+    border: 1px solid #C4B5FD;
     border-radius: 10px;
     padding: 14px 16px;
     margin-bottom: 10px;
@@ -102,12 +94,12 @@ st.markdown("""
 .metric-card .metric-value {
     font-size: 2rem;
     font-weight: 700;
-    color: #C084FC;
+    color: #6D28D9;
     line-height: 1.1;
 }
 .metric-card .metric-label {
     font-size: 0.72rem;
-    color: #94A3B8;
+    color: #6B7280;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     margin-top: 2px;
@@ -115,8 +107,8 @@ st.markdown("""
 
 /* ── Sponsor tech card ────────────────────────────────────────────── */
 .sponsor-card {
-    background: #1A1A2E;
-    border: 1px solid #2D2D4E;
+    background: #F9F7FF;
+    border: 1px solid #DDD6FE;
     border-radius: 8px;
     padding: 10px 14px;
     margin-bottom: 8px;
@@ -125,12 +117,12 @@ st.markdown("""
     gap: 10px;
 }
 .sponsor-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; }
-.sponsor-name { font-size: 0.8rem; font-weight: 700; color: #C084FC; }
-.sponsor-role { font-size: 0.72rem; color: #94A3B8; }
+.sponsor-name { font-size: 0.8rem; font-weight: 700; color: #5B21B6; }
+.sponsor-role { font-size: 0.72rem; color: #6B7280; }
 
 /* ── App title bar ────────────────────────────────────────────────── */
 .app-title {
-    background: linear-gradient(135deg, #1E1B4B 0%, #2D1B69 100%);
+    background: linear-gradient(135deg, #4C1D95 0%, #6D28D9 100%);
     border-radius: 12px;
     padding: 18px 24px;
     margin-bottom: 20px;
@@ -142,35 +134,35 @@ st.markdown("""
     margin: 0 !important;
     padding: 0 !important;
 }
-.app-title p { color: #C084FC; margin: 4px 0 0 0; font-size: 0.9rem; }
+.app-title p { color: #DDD6FE; margin: 4px 0 0 0; font-size: 0.9rem; }
 
 /* ── Chat bubbles ─────────────────────────────────────────────────── */
 .chat-user {
-    background: linear-gradient(135deg, #1E1B4B, #2D1B69);
-    border: 1px solid #4C1D95;
+    background: linear-gradient(135deg, #EDE9FE, #DDD6FE);
+    border: 1px solid #C4B5FD;
     border-radius: 12px 12px 4px 12px;
     padding: 14px 18px;
     margin: 12px 0 6px auto;
     max-width: 85%;
-    color: #E2E8F0;
+    color: #1E1B4B;
     font-size: 0.95rem;
 }
 .chat-label-user {
     text-align: right;
     font-size: 0.72rem;
-    color: #A855F7;
+    color: #7C3AED;
     font-weight: 600;
     letter-spacing: 0.05em;
     margin-bottom: 2px;
 }
 .chat-assistant {
-    background: #0F172A;
-    border: 1px solid #1E293B;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
     border-radius: 4px 12px 12px 12px;
     padding: 16px 20px;
     margin: 6px 0 12px 0;
     max-width: 95%;
-    color: #E2E8F0;
+    color: #1E293B;
     font-size: 0.9rem;
     line-height: 1.6;
 }
@@ -184,7 +176,7 @@ st.markdown("""
 
 /* ── Confidence bar ───────────────────────────────────────────────── */
 .conf-bar-outer {
-    background: #1E293B;
+    background: #E2E8F0;
     border-radius: 6px;
     height: 10px;
     margin: 6px 0 2px 0;
@@ -199,20 +191,20 @@ st.markdown("""
 /* ── Citation pill ────────────────────────────────────────────────── */
 .citation-pill {
     display: inline-block;
-    background: #1E1B4B;
-    border: 1px solid #4C1D95;
+    background: #EDE9FE;
+    border: 1px solid #C4B5FD;
     border-radius: 20px;
     padding: 3px 12px;
     margin: 3px 4px;
     font-size: 0.76rem;
-    color: #C084FC;
+    color: #5B21B6;
 }
 
 /* ── Empty state ──────────────────────────────────────────────────── */
 .empty-state {
     text-align: center;
     padding: 80px 20px;
-    color: #4B5563;
+    color: #9CA3AF;
 }
 .empty-state .shield { font-size: 5rem; margin-bottom: 16px; }
 .empty-state h3 { color: #6B7280; font-weight: 500; margin: 0; }
@@ -220,19 +212,19 @@ st.markdown("""
 
 /* ── Escalation banner ────────────────────────────────────────────── */
 .escalation-banner {
-    background: linear-gradient(135deg, #450a0a, #7f1d1d);
-    border: 1px solid #ef4444;
+    background: #FEF2F2;
+    border: 1px solid #FCA5A5;
     border-radius: 10px;
     padding: 14px 18px;
     margin-bottom: 14px;
-    color: #fecaca;
+    color: #7F1D1D;
     font-size: 0.9rem;
 }
 
 /* ── Audit log entry ──────────────────────────────────────────────── */
 .log-entry {
-    background: #0F172A;
-    border: 1px solid #1E293B;
+    background: #F8FAFC;
+    border: 1px solid #E2E8F0;
     border-radius: 8px;
     padding: 14px 18px;
     margin-bottom: 10px;
@@ -243,12 +235,13 @@ st.markdown("""
     align-items: center;
     margin-bottom: 8px;
 }
-.log-badge-ok   { background:#14532d; color:#86efac; padding:2px 10px; border-radius:20px; font-size:0.72rem; font-weight:700; }
-.log-badge-esc  { background:#450a0a; color:#fca5a5; padding:2px 10px; border-radius:20px; font-size:0.72rem; font-weight:700; }
+.log-badge-ok  { background:#DCFCE7; color:#14532D; padding:2px 10px; border-radius:20px; font-size:0.72rem; font-weight:700; }
+.log-badge-esc { background:#FEE2E2; color:#7F1D1D; padding:2px 10px; border-radius:20px; font-size:0.72rem; font-weight:700; }
 
-/* ── Hide default Streamlit header padding ────────────────────────── */
+/* ── Layout ───────────────────────────────────────────────────────── */
 .block-container { padding-top: 2rem; }
-header[data-testid="stHeader"] { display: none; }
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -281,12 +274,12 @@ with st.sidebar:
     st.markdown(f"""
     <div style='text-align:center; padding: 16px 0 8px 0;'>
         {logo_img_tag(140, "display:block;margin:0 auto 8px auto;border-radius:8px;")}
-        <div style='font-size:1.1rem; font-weight:700; color:#C084FC; margin-top:4px;'>Audit Avengers AI</div>
-        <div style='font-size:0.72rem; color:#94A3B8; margin-top:2px;'>Treasury Compliance Assistant</div>
+        <div style='font-size:1.1rem; font-weight:700; color:#5B21B6; margin-top:4px;'>Audit Avengers AI</div>
+        <div style='font-size:0.72rem; color:#6B7280; margin-top:2px;'>Treasury Compliance Assistant</div>
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("<div style='border-top:1px solid #2D2D4E; margin:12px 0;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='border-top:1px solid #DDD6FE; margin:12px 0;'></div>", unsafe_allow_html=True)
 
     # ── Metric cards ──
     st.markdown(f"""
@@ -295,7 +288,7 @@ with st.sidebar:
         <div class='metric-label'>Questions Asked</div>
     </div>
     <div class='metric-card'>
-        <div class='metric-value' style='color:{"#F87171" if escalated_cases > 0 else "#C084FC"}'>{escalated_cases}</div>
+        <div class='metric-value' style='color:{"#DC2626" if escalated_cases > 0 else "#6D28D9"}'>{escalated_cases}</div>
         <div class='metric-label'>Escalated Cases</div>
     </div>
     <div class='metric-card'>
@@ -308,10 +301,10 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("<div style='border-top:1px solid #2D2D4E; margin:16px 0 10px 0;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='border-top:1px solid #DDD6FE; margin:16px 0 10px 0;'></div>", unsafe_allow_html=True)
 
     # ── Settings ──
-    st.markdown("<div style='font-size:0.78rem; color:#94A3B8; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:8px;'>⚙️ Settings</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size:0.78rem; color:#6B7280; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:8px;'>⚙️ Settings</div>", unsafe_allow_html=True)
     top_k = st.slider("Sources to retrieve", 1, 5, st.session_state.top_k, key="top_k_slider")
     escalation_threshold = st.slider("Escalation threshold", 0.1, 0.9, st.session_state.escalation_threshold, step=0.05, key="esc_slider")
     st.session_state.top_k = top_k
@@ -324,10 +317,10 @@ with st.sidebar:
         count = reload_documents()
         st.success(f"Loaded {count} chunks")
 
-    st.markdown("<div style='border-top:1px solid #2D2D4E; margin:16px 0 10px 0;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='border-top:1px solid #DDD6FE; margin:16px 0 10px 0;'></div>", unsafe_allow_html=True)
 
     # ── Sponsor tech story ──
-    st.markdown("<div style='font-size:0.78rem; color:#94A3B8; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:10px;'>🔧 Powered By</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size:0.78rem; color:#6B7280; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:10px;'>🔧 Powered By</div>", unsafe_allow_html=True)
     st.markdown("""
     <div class='sponsor-card'>
         <div class='sponsor-icon'>🤖</div>
@@ -359,7 +352,7 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown(f"<div style='font-size:0.68rem; color:#374151; text-align:center; margin-top:16px;'>Session {st.session_state.session_id}</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='font-size:0.68rem; color:#9CA3AF; text-align:center; margin-top:16px;'>Session {st.session_state.session_id}</div>", unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # Main area — title bar
@@ -520,7 +513,7 @@ with tab_log:
                         <div style='font-size:0.75rem; color:#6B7280;'>{ts} UTC · Session <code>{entry.get("session_id","n/a")}</code></div>
                     </div>
                     <div style='font-size:0.8rem; color:#94A3B8; margin-bottom:4px; font-weight:600;'>QUESTION</div>
-                    <div style='background:#1E293B; border-radius:6px; padding:10px 14px; color:#E2E8F0; font-size:0.9rem; margin-bottom:12px;'>{entry.get("query","")}</div>
+                    <div style='background:#F1F5F9; border-radius:6px; padding:10px 14px; color:#1E293B; font-size:0.9rem; margin-bottom:12px;'>{entry.get("query","")}</div>
                     <div style='font-size:0.8rem; color:#94A3B8; margin-bottom:4px; font-weight:600;'>CONFIDENCE</div>
                     <div class='conf-bar-outer' style='margin-bottom:12px;'>
                         <div class='conf-bar-inner' style='width:{conf*100:.1f}%; background:{"#22C55E" if conf >= 0.8 else "#EAB308" if conf >= st.session_state.escalation_threshold else "#EF4444"};'></div>
