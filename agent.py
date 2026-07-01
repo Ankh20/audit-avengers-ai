@@ -3,7 +3,7 @@ agent.py
 Orchestrates the full Audit Avengers AI pipeline:
   1. Retrieve relevant policy document chunks
   2. Build a cited prompt
-  3. Call Claude via Bedrock
+  3. Call Amazon Nova Pro via Bedrock
   4. Extract confidence and decide on escalation
   5. Log the interaction
   6. Return a structured result dict
@@ -55,7 +55,7 @@ def run_query(query: str, session_id: str = "default") -> dict:
 
     Returns:
         dict with keys:
-            response      (str)   — Claude's full answer
+            response      (str)   — Amazon Nova Pro's full answer
             confidence    (float) — 0.0–1.0 self-assessed score
             escalated     (bool)  — True if confidence < threshold
             sources       (list)  — filenames of retrieved chunks

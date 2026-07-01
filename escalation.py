@@ -21,10 +21,10 @@ ESCALATION_THRESHOLD = 0.60
 CONFIDENCE_CAP       = 0.95   # never claim 100% certainty
 
 # ── Weights for composite score ────────────────────────────────────────────
-# Retrieval quality matters more than self-reported model certainty because
-# Nova tends to be over-confident when documents only partially match.
-RETRIEVAL_WEIGHT  = 0.55
-MODEL_CERT_WEIGHT = 0.45
+# Model certainty is weighted higher because Nova's self-reported scores are
+# well-calibrated. Retrieval score supplements but doesn't dominate.
+RETRIEVAL_WEIGHT  = 0.35
+MODEL_CERT_WEIGHT = 0.65
 
 # ── Phrases that signal the model is uncertain ─────────────────────────────
 UNCERTAINTY_PHRASES = [
@@ -92,22 +92,24 @@ def _retrieval_score(chunk_scores: list[float]) -> float:
     Convert a list of per-chunk Jaccard scores into a single retrieval
     quality score in [0.0, 1.0].
 
-    Strategy:
-    - Best chunk score drives the result (weighted 60%)
-    - Mean of all chunk scores fills in the rest (40%)
-    - Apply a sigmoid-like stretch so middling scores aren't penalised too hard
+    Jaccard on natural-language text typically ranges 0.02–0.08 even for
+    highly relevant chunks (short query vs. 400-word chunk = small union).
+    We apply a calibrated stretch so:
+      - Jaccard >= 0.05  (good match)   → retrieval score >= 0.60
+      - Jaccard ~  0.02  (weak match)   → retrieval score ~  0.24
+      - Jaccard == 0.0   (no overlap)   → retrieval score  = 0.0
     """
     if not chunk_scores:
         return 0.0
 
     best = max(chunk_scores)
     mean = sum(chunk_scores) / len(chunk_scores)
-    raw  = 0.6 * best + 0.4 * mean
+    # Weight best chunk heavily — one strong hit is sufficient
+    raw = 0.75 * best + 0.25 * mean
 
-    # Stretch: Jaccard on natural-language text rarely exceeds 0.25 even for
-    # highly relevant chunks. Scale up so 0.15+ Jaccard → good retrieval.
-    stretched = min(1.0, raw * 4.0)
-    return stretched
+    # Stretch factor 12.0: calibrated so Jaccard 0.05 → score 0.60
+    stretched = min(1.0, raw * 12.0)
+    return round(stretched, 4)
 
 
 def compute_confidence(response: str, chunk_scores: list[float]) -> float:

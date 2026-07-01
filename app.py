@@ -1,16 +1,52 @@
 """
 app.py
 Audit Avengers AI — Streamlit frontend
-Treasury Regulatory Compliance Assistant powered by Amazon Bedrock + Claude
+Treasury Regulatory Compliance Assistant powered by Amazon Bedrock + Amazon Nova Pro
 """
 
 import logging
 import uuid
+import base64
+import os
 import streamlit as st
 from agent import run_query, reload_documents
 from audit_logger import load_log
 import agent as _agent
 import escalation as _escalation
+
+# ---------------------------------------------------------------------------
+# Logo loader — renders the PNG if it exists and has content,
+# otherwise falls back gracefully to the emoji so the app never breaks.
+# ---------------------------------------------------------------------------
+LOGO_PATH = os.path.join(os.path.dirname(__file__), "assets", "audit_avengers_logo.png")
+
+def _logo_b64() -> str | None:
+    """Return base64-encoded PNG string, or None if file is missing/empty."""
+    try:
+        if os.path.exists(LOGO_PATH) and os.path.getsize(LOGO_PATH) > 0:
+            with open(LOGO_PATH, "rb") as f:
+                return base64.b64encode(f.read()).decode()
+    except OSError:
+        pass
+    return None
+
+_LOGO_B64 = _logo_b64()   # computed once at startup
+
+def logo_img_tag(width: int, style: str = "") -> str:
+    """Return an <img> tag for the logo, or a styled emoji span as fallback."""
+    if _LOGO_B64:
+        return (
+            f'<img src="data:image/png;base64,{_LOGO_B64}" '
+            f'width="{width}" style="object-fit:contain;{style}" alt="Audit Avengers logo">'
+        )
+    return f'<span style="font-size:{width//16}rem;{style}">🛡️</span>'
+
+def logo_st(width: int) -> None:
+    """Render the logo via st.image (sidebar) or HTML fallback."""
+    if _LOGO_B64:
+        st.image(LOGO_PATH, width=width)
+    else:
+        st.markdown(f'<div style="font-size:3rem;text-align:center;">🛡️</div>', unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # Logging
@@ -25,7 +61,7 @@ logging.basicConfig(
 # ---------------------------------------------------------------------------
 st.set_page_config(
     page_title="Audit Avengers AI",
-    page_icon="🛡️",
+    page_icon=LOGO_PATH if os.path.exists(LOGO_PATH) else "🛡️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -242,9 +278,9 @@ citation_coverage = f"{int(len(cited_entries)/max(1,questions_asked)*100)}%"
 # Sidebar
 # ---------------------------------------------------------------------------
 with st.sidebar:
-    st.markdown("""
+    st.markdown(f"""
     <div style='text-align:center; padding: 16px 0 8px 0;'>
-        <div style='font-size:2.5rem;'>🛡️</div>
+        {logo_img_tag(140, "display:block;margin:0 auto 8px auto;border-radius:8px;")}
         <div style='font-size:1.1rem; font-weight:700; color:#C084FC; margin-top:4px;'>Audit Avengers AI</div>
         <div style='font-size:0.72rem; color:#94A3B8; margin-top:2px;'>Treasury Compliance Assistant</div>
     </div>
@@ -296,8 +332,8 @@ with st.sidebar:
     <div class='sponsor-card'>
         <div class='sponsor-icon'>🤖</div>
         <div>
-            <div class='sponsor-name'>Claude · Anthropic</div>
-            <div class='sponsor-role'>Policy reasoning &amp; cited answers</div>
+            <div class='sponsor-name'>Amazon Nova Pro</div>
+            <div class='sponsor-role'>LLM reasoning and response generation</div>
         </div>
     </div>
     <div class='sponsor-card'>
@@ -328,10 +364,15 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 # Main area — title bar
 # ---------------------------------------------------------------------------
-st.markdown("""
-<div class='app-title'>
-    <h1>🛡️ Audit Avengers AI</h1>
-    <p>Ask any Treasury or IRS regulatory compliance question — answers are grounded in policy documents with citations.</p>
+st.markdown(f"""
+<div class='app-title' style='display:flex; align-items:center; gap:20px;'>
+    <div style='flex-shrink:0;'>
+        {logo_img_tag(72, "border-radius:8px;")}
+    </div>
+    <div>
+        <h1 style='margin:0;padding:0;'>Audit Avengers AI</h1>
+        <p style='margin:4px 0 0 0;'>Ask any Treasury or IRS regulatory compliance question — answers are grounded in policy documents with citations.</p>
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -350,9 +391,9 @@ with tab_query:
 
     with chat_container:
         if not st.session_state.history:
-            st.markdown("""
+            st.markdown(f"""
             <div class='empty-state'>
-                <div class='shield'>🛡️</div>
+                <div class='shield'>{logo_img_tag(96, "display:block;margin:0 auto;opacity:0.85;")}</div>
                 <h3>Ask your first compliance question</h3>
                 <p>Type below to get policy-grounded answers with citations from Treasury &amp; IRS documents.</p>
             </div>
@@ -377,7 +418,7 @@ with tab_query:
                     """, unsafe_allow_html=True)
 
                 # ── Assistant bubble ──
-                st.markdown(f"<div class='chat-label-assistant'>🛡️ AUDIT AVENGERS AI</div>", unsafe_allow_html=True)
+                st.markdown(f"<div class='chat-label-assistant'>{logo_img_tag(18, 'vertical-align:middle;border-radius:3px;')} &nbsp;AUDIT AVENGERS AI</div>", unsafe_allow_html=True)
                 st.markdown(f"<div class='chat-assistant'>{item['response']}</div>", unsafe_allow_html=True)
 
                 # ── Confidence bar + citations row ──
@@ -482,7 +523,7 @@ with tab_log:
                     <div style='background:#1E293B; border-radius:6px; padding:10px 14px; color:#E2E8F0; font-size:0.9rem; margin-bottom:12px;'>{entry.get("query","")}</div>
                     <div style='font-size:0.8rem; color:#94A3B8; margin-bottom:4px; font-weight:600;'>CONFIDENCE</div>
                     <div class='conf-bar-outer' style='margin-bottom:12px;'>
-                        <div class='conf-bar-inner' style='width:{conf*100:.1f}%; background:{"#22C55E" if conf >= 0.8 else "#EAB308" if conf >= 0.6 else "#EF4444"};'></div>
+                        <div class='conf-bar-inner' style='width:{conf*100:.1f}%; background:{"#22C55E" if conf >= 0.8 else "#EAB308" if conf >= st.session_state.escalation_threshold else "#EF4444"};'></div>
                     </div>
                     <div style='font-size:0.8rem; color:#94A3B8; margin-bottom:6px; font-weight:600;'>SOURCES CITED</div>
                     <div style='margin-bottom:12px;'>{"".join(f"<span class='citation-pill'>📄 {s}</span>" for s in entry.get("sources_cited",[]))  or "<span style='color:#4B5563; font-size:0.8rem;'>None</span>"}</div>

@@ -28,7 +28,7 @@ def log_interaction(
 
     Args:
         query:       The user's original question.
-        response:    Claude's full response text.
+        response:    Amazon Nova Pro's full response text.
         sources:     List of document filenames cited.
         confidence:  Extracted confidence score (0.0 – 1.0).
         escalated:   Whether this response triggered escalation.

@@ -1,0 +1,85 @@
+SUSPICIOUS ACTIVITY REPORT (SAR) FILING REQUIREMENTS
+U.S. Department of the Treasury / Financial Crimes Enforcement Network (FinCEN)
+Reference: 31 CFR 1020.320 (Banks), 31 CFR 1022.320 (MSBs), 31 USC 5318(g)
+
+1. OVERVIEW
+A Suspicious Activity Report (SAR) must be filed by financial institutions when they
+know, suspect, or have reason to suspect that a transaction involves funds derived from
+illegal activity, is designed to evade BSA requirements, lacks a lawful purpose, or
+involves the use of the financial institution to facilitate criminal activity.
+
+2. WHO MUST FILE SARs
+The following institutions are required to file SARs with FinCEN:
+  - Banks and savings associations (insured depository institutions)
+  - Credit unions
+  - Money services businesses (MSBs): money transmitters, check cashers, currency dealers
+  - Brokers and dealers in securities
+  - Mutual funds
+  - Insurance companies
+  - Casinos and card clubs
+  - Loan or finance companies
+
+3. WHEN TO FILE — MANDATORY TRIGGERS
+A SAR must be filed when a transaction or attempted transaction:
+  a. Involves or aggregates to $5,000 or more (for banks) or $2,000 or more (for MSBs)
+     AND the institution knows, suspects, or has reason to suspect the transaction:
+       - Involves funds from illegal activity (e.g., drug trafficking, fraud, terrorism)
+       - Is structured or otherwise designed to evade BSA reporting requirements
+       - Has no apparent lawful purpose and the institution cannot identify a reasonable
+         explanation after reviewing available facts
+       - Involves use of the financial institution to facilitate criminal activity
+
+  b. Additional mandatory SAR categories regardless of dollar amount:
+       - Known or suspected terrorist financing
+       - Transactions involving senior foreign political figures (PEPs)
+       - Cybersecurity events affecting the financial institution
+       - Human trafficking proceeds
+
+4. FILING DEADLINES
+  - Standard SAR deadline: 30 calendar days from the date of initial detection of facts
+    that may constitute a basis for filing a SAR
+  - If no suspect is identified: deadline is extended to 60 calendar days from detection
+  - Continuing activity SARs: if suspicious activity continues after the initial SAR,
+    a follow-up SAR must be filed every 90 days until the activity stops
+
+5. SAR CONTENT REQUIREMENTS
+A complete SAR must include:
+  a. Subject information: name, address, date of birth, SSN/TIN, occupation,
+     and government-issued ID number of the suspect (if known)
+  b. Suspicious activity information: date, amount, type of transaction,
+     account numbers involved, and a detailed narrative
+  c. Narrative section: a clear, chronological description of the suspicious
+     activity, why it is suspicious, and all relevant facts and circumstances
+  d. Filing institution information: name, address, contact person, and EIN
+
+6. CONFIDENTIALITY — THE "TIPPING OFF" PROHIBITION
+Financial institutions and their employees are PROHIBITED from:
+  - Notifying the subject of the SAR or any person named in the SAR that a SAR
+    has been filed or that a SAR investigation is underway
+  - Disclosing the existence of a SAR to anyone outside the institution except
+    to FinCEN, law enforcement, or financial institution supervisors
+Violation of confidentiality carries civil and criminal penalties.
+
+7. SAFE HARBOR PROTECTION
+Financial institutions and their employees are protected from civil liability for
+filing a SAR in good faith. This safe harbor covers both voluntary and mandatory SAR
+filings under 31 USC 5318(g)(3).
+
+8. RECORDKEEPING
+Financial institutions must retain copies of all filed SARs and supporting
+documentation for 5 years from the date of filing. Records must be made available
+to FinCEN and law enforcement upon request.
+
+9. COMMON SUSPICIOUS ACTIVITY INDICATORS
+  - Structuring cash transactions just below reporting thresholds ($10,000)
+  - Rapid movement of funds through multiple accounts with no business purpose
+  - Use of shell companies or nominee accounts to obscure beneficial ownership
+  - Inconsistencies between transaction activity and customer's stated business
+  - Wire transfers to or from high-risk jurisdictions without clear business reason
+  - Customer reluctance to provide required identification or documentation
+  - Unusual patterns of cash deposits followed by immediate wire transfers
+
+10. PENALTIES FOR FAILURE TO FILE
+  - Civil penalties: Up to $25,000 per day for each violation
+  - Criminal penalties: Up to $250,000 and/or 5 years imprisonment for willful violations
+  - Institutions may also face regulatory sanctions including loss of charter

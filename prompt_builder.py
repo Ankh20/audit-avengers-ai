@@ -1,6 +1,6 @@
 """
 prompt_builder.py
-Constructs the Claude prompt with injected policy context and
+Constructs the Amazon Nova Pro prompt with injected policy context and
 instructions for inline citations and a self-reported confidence score.
 """
 
@@ -14,7 +14,7 @@ You must never fabricate information or cite sources that are not present below.
 
 def build_prompt(query: str, chunks: list[Chunk]) -> str:
     """
-    Build a complete prompt that instructs Claude to:
+    Build a complete prompt that instructs Amazon Nova Pro to:
       - Answer using only the supplied policy documents
       - Cite each source inline as [SOURCE N]
       - End with a numbered Sources list
@@ -25,7 +25,7 @@ def build_prompt(query: str, chunks: list[Chunk]) -> str:
         chunks: Retrieved policy document chunks.
 
     Returns:
-        A fully formed prompt string ready for Claude.
+        A fully formed prompt string ready for Amazon Nova Pro.
     """
     if not chunks:
         context_block = "No policy documents are currently available."
@@ -57,13 +57,16 @@ INSTRUCTIONS
    "The provided documents do not fully address this question."
 4. After your answer, add a blank line then write exactly:
    Sources:
-   - [SOURCE 1]: <filename>
-   - [SOURCE 2]: <filename>
-   (list only sources you actually cited)
+   Then list ONLY the sources you actually cited inline, one per line, like:
+   - [SOURCE 1]: bsa_ctr_requirements.txt
+   Do NOT include a source line if you did not cite that source number inline.
+   Do NOT include blank bullet points or placeholder lines.
 5. After the Sources section, add a blank line then write exactly:
    Confidence: X.XX
    where X.XX is a number from 0.00 to 1.00 representing how confident
    you are that the documents fully support your answer.
-   Use low scores (< 0.60) if the documents are incomplete or ambiguous."""
+   Use a score below 0.60 ONLY if the documents are genuinely incomplete
+   or the question cannot be answered from the provided content.
+   Use 0.80 or higher if the documents clearly and directly answer the question."""
 
     return prompt

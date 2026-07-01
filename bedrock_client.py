@@ -1,6 +1,6 @@
 """
 bedrock_client.py
-Calls Amazon Bedrock using the Converse API (works with Nova, Claude, and
+Calls Amazon Bedrock using the Converse API (works with Nova Pro and
 any other Bedrock model that supports Converse).
 
 Active model: Amazon Nova Pro — confirmed accessible in this account.
@@ -92,4 +92,5 @@ def invoke_model_with_fallback(prompt: str, max_tokens: int = 1024) -> tuple[str
 
 
 # Keep backward-compatible alias used by agent.py
-invoke_claude = invoke_model
+invoke_nova = invoke_model
+invoke_claude = invoke_model  # legacy alias — do not remove
